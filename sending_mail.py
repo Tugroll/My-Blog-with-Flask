@@ -20,4 +20,4 @@ class SendMail:
              print("Success")
 
         except Exception as e:
-             print(f"E-posta gönderimi sırasında hata oluştu: {e}")
+             print(f"Error: {e}")
